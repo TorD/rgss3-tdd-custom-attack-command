@@ -12,6 +12,16 @@ module TDD;end; module TDD::CAC;end; module TDD::CAC::SETTINGS
 # * Credit      Please credit both authors if you wish to give credit.
 # 
 #============================================================================
+#                            ~ INSTALLATION ~                                 
+#============================================================================
+#
+# Only compatible with RPG Maker VXAce
+# ------------------------------------
+#
+# Copy and paste the script in its entirety into a new slot in the Ace
+# script editor, below ▼ Materials and above ▼ Main Process
+#
+#============================================================================
 #                             ~ HOW TO USE ~                                 
 #============================================================================
 #
@@ -39,7 +49,9 @@ module TDD;end; module TDD::CAC;end; module TDD::CAC::SETTINGS
 # Description:  Set this to TRUE to enable the custom attack extension.
 #               Remember to put the desired skill for each class's Attack
 #               command in the topmost skill slot in that class's skill list.
-  ENABLE_CUSTOM_ATTACK_EXTENSION = FALSE
+#
+ENABLE_CUSTOM_ATTACK_EXTENSION = FALSE
+#
 #============================================================================
 end
 
