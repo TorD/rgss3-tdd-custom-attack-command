@@ -10,21 +10,15 @@ module TDD;end; module TDD::CAC;end; module TDD::CAC::SETTINGS
 # * License     Free for non-commercial and commercial projects. Credit
 #               greatly appreciated but not required.
 # * Credit      Please credit both authors if you wish to give credit.
+#
+#============================================================================
+#                   ~ WHAT IS THIS & HOW DO I USE IT? ~                      
+#============================================================================
+#
+# The quick version: It lets you use any scope for the default Attack
+# command, and if you enable it below, it allows you to set a unqiue default
+# Attack command for every class in your game. More details below.
 # 
-#============================================================================
-#                            ~ INSTALLATION ~                                 
-#============================================================================
-#
-# Only compatible with RPG Maker VXAce
-# ------------------------------------
-#
-# Copy and paste the script in its entirety into a new slot in the Ace
-# script editor, below ▼ Materials and above ▼ Main Process
-#
-#============================================================================
-#                             ~ HOW TO USE ~                                 
-#============================================================================
-#
 # There are two parts to this script:
 #
 # 1.  It fixes a bug in Ace which makes it so that even if you select a
@@ -39,6 +33,16 @@ module TDD;end; module TDD::CAC;end; module TDD::CAC::SETTINGS
 #     class. It will change the name of the command and its functionality.
 #     It is the topmost skill in the list, regardless of level, that will be
 #     used as the Attack command.
+#
+#============================================================================
+#                            ~ INSTALLATION ~                                 
+#============================================================================
+#
+# Only compatible with RPG Maker VXAce
+# ------------------------------------
+#
+# Copy and paste the script in its entirety into a new slot in the Ace
+# script editor, below ▼ Materials and above ▼ Main Process
 #
 #============================================================================
 #                              ~ SETTINGS ~                                  
